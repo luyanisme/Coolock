@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="AlarmListBoard_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <view class="bg"/>
+    <list id="alarmList" class="alarmList"/>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image:"bg.png";
+    }
+    
+    .alarmList {
+    top: 64px;
+    }
+  </style>
+</ui>

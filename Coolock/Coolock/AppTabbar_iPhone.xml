@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="AppTabbar_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <view class="bg"/>
+    <row class="container">
+        <image class="under_line" id="under_line"/>
+        <row class="sub_container">
+            <button id="alarm_clock_btn" class="mask"/>
+            <image class="alarm_clock"/>
+        </row>
+        <row class="sub_container">
+            <button id="notice_btn" class="mask"/>
+            <image class="notice"/>
+        </row>
+        <row class="sub_container">
+            <button id="schedule_btn" class="mask"/>
+            <image class="schedule"/>
+        </row>
+        <row class="sub_container">
+            <button id="manager_btn" class="mask"/>
+            <image class="manager"/>
+        </row>
+    </row>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #303d4e;
+    alpha: 0.6;
+    }
+    
+    .container{
+    width: 100%;
+    height: 100%;
+    }
+    
+    .sub_container{
+    width: 25%;
+    height: 100%;
+    }
+    
+    .alarm_clock {
+    positon: absolute;
+    width: 35px;
+    height: 35px;
+    image: url(clock.png);
+    mode: fit;
+    v-float: center;
+    float: center;
+    }
+    
+<!--    .alarm_clock_label {-->
+<!--    width: auto;-->
+<!--    height: auto;-->
+<!--    float: center;-->
+<!--    font-size: 10px;-->
+<!--    color: #FF7F61;-->
+<!--    top: 38px;-->
+<!--    }-->
+
+    .notice{
+    width: 35px;
+    height: 35px;
+    image: url(notice_icon.png);
+    mode: fit;
+    v-float: center;
+    float: center;
+    }
+    
+    .manager {
+    width: 35px;
+    height: 35px;
+    image: url(manager_icon.png);
+    mode: fit;
+    v-float: center;
+    float: center;
+    }
+    
+    .schedule{
+    width: 35px;
+    height: 35px;
+    image: url(schedule_icon.png);
+    mode: fit;
+    v-float: center;
+    float: center;
+    }
+    
+    .mask {
+    position: absolute;
+    }
+    
+    .under_line {
+    position: absolute;
+    bottom: 0px;
+    width: 12.8%;
+    height: 2px;
+    left: 6%;
+    background-color: #FF7F61;
+    }
+  </style>
+</ui>
