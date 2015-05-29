@@ -50,6 +50,9 @@
     {
         self.window.rootViewController = [AppBoard_iPhone sharedInstance];
     }
+    
+    //状态栏设置成白色
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 
 - (void)unload

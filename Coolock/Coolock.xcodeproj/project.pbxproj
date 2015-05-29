@@ -501,6 +501,13 @@
 		398555BD1B17183B0086EAC0 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 398554671B17183B0086EAC0 /* unzip.c */; };
 		398555BE1B17183B0086EAC0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 398554691B17183B0086EAC0 /* zip.c */; };
 		398555BF1B17183B0086EAC0 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3985546C1B17183B0086EAC0 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		398555C71B181A6C0086EAC0 /* ScheduleBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 398555C51B181A6C0086EAC0 /* ScheduleBoard_iPhone.m */; };
+		398555C81B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 398555C61B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml */; };
+		398555CD1B181D460086EAC0 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398555CC1B181D460086EAC0 /* CKCalendarView.m */; };
+		398555D61B1821240086EAC0 /* CalendarBoardCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 398555D41B1821240086EAC0 /* CalendarBoardCell_iPhone.m */; };
+		398555D71B1821240086EAC0 /* CalendarBoardCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 398555D51B1821240086EAC0 /* CalendarBoardCell_iPhone.xml */; };
+		398555DA1B1837300086EAC0 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 398555D81B1837300086EAC0 /* left_arrow.png */; };
+		398555DB1B1837300086EAC0 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 398555D91B1837300086EAC0 /* right_arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1517,6 +1524,16 @@
 		3985546A1B17183B0086EAC0 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		3985546B1B17183B0086EAC0 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		3985546C1B17183B0086EAC0 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		398555C41B181A6C0086EAC0 /* ScheduleBoard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBoard_iPhone.h; sourceTree = "<group>"; };
+		398555C51B181A6C0086EAC0 /* ScheduleBoard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBoard_iPhone.m; sourceTree = "<group>"; };
+		398555C61B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ScheduleBoard_iPhone.xml; sourceTree = "<group>"; };
+		398555CB1B181D460086EAC0 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		398555CC1B181D460086EAC0 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		398555D31B1821240086EAC0 /* CalendarBoardCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarBoardCell_iPhone.h; sourceTree = "<group>"; };
+		398555D41B1821240086EAC0 /* CalendarBoardCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarBoardCell_iPhone.m; sourceTree = "<group>"; };
+		398555D51B1821240086EAC0 /* CalendarBoardCell_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CalendarBoardCell_iPhone.xml; sourceTree = "<group>"; };
+		398555D81B1837300086EAC0 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		398555D91B1837300086EAC0 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1594,6 +1611,7 @@
 				3974558D1A9C856D000C5C4F /* Coolock-Prefix.pch */,
 				397455951A9C856D000C5C4F /* Images.xcassets */,
 				397455971A9C856D000C5C4F /* LaunchScreen.xib */,
+				398555C91B181D3D0086EAC0 /* vender */,
 				3974557F1A9C856D000C5C4F /* controller */,
 				3974557E1A9C856D000C5C4F /* model */,
 				397455801A9C856D000C5C4F /* view_iPhone */,
@@ -1659,6 +1677,7 @@
 			isa = PBXGroup;
 			children = (
 				39745C471AA08099000C5C4F /* alarmclock */,
+				398555C31B181A3F0086EAC0 /* schedule */,
 			);
 			name = templates;
 			path = view_iPhone/templates;
@@ -1704,6 +1723,8 @@
 		39745C291A9CC4C7000C5C4F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				398555D81B1837300086EAC0 /* left_arrow.png */,
+				398555D91B1837300086EAC0 /* right_arrow.png */,
 				39745C511AA1C4DF000C5C4F /* alarm_clock.png */,
 				39745C451AA06977000C5C4F /* schedule_icon.png */,
 				39745C431AA067F1000C5C4F /* manager_icon.png */,
@@ -3587,6 +3608,36 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
+		398555C31B181A3F0086EAC0 /* schedule */ = {
+			isa = PBXGroup;
+			children = (
+				398555C41B181A6C0086EAC0 /* ScheduleBoard_iPhone.h */,
+				398555C51B181A6C0086EAC0 /* ScheduleBoard_iPhone.m */,
+				398555C61B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml */,
+				398555D31B1821240086EAC0 /* CalendarBoardCell_iPhone.h */,
+				398555D41B1821240086EAC0 /* CalendarBoardCell_iPhone.m */,
+				398555D51B1821240086EAC0 /* CalendarBoardCell_iPhone.xml */,
+			);
+			name = schedule;
+			sourceTree = "<group>";
+		};
+		398555C91B181D3D0086EAC0 /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				398555CA1B181D460086EAC0 /* calendar */,
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		398555CA1B181D460086EAC0 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				398555CB1B181D460086EAC0 /* CKCalendarView.h */,
+				398555CC1B181D460086EAC0 /* CKCalendarView.m */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3652,7 +3703,9 @@
 				398551011B1718320086EAC0 /* ServiceDebugger_DashCPUCell.xml in Resources */,
 				398551311B1718320086EAC0 /* ServiceLogger_Cell.xml in Resources */,
 				39745C441AA067F1000C5C4F /* manager_icon.png in Resources */,
+				398555DB1B1837300086EAC0 /* right_arrow.png in Resources */,
 				39745C421AA040ED000C5C4F /* notice_icon.png in Resources */,
+				398555DA1B1837300086EAC0 /* left_arrow.png in Resources */,
 				3985516D1B1718320086EAC0 /* ServiceWizard_Board.xml in Resources */,
 				39745C461AA06977000C5C4F /* schedule_icon.png in Resources */,
 				39745C281A9CC41B000C5C4F /* AlarmListBoardCell_iPhone.xml in Resources */,
@@ -3672,8 +3725,10 @@
 				39745BE21A9C882C000C5C4F /* AlarmListBoard_iPhone.xml in Resources */,
 				3985512C1B1718320086EAC0 /* ServiceLogger.bundle in Resources */,
 				397455991A9C856D000C5C4F /* LaunchScreen.xib in Resources */,
+				398555C81B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml in Resources */,
 				397455961A9C856D000C5C4F /* Images.xcassets in Resources */,
 				3985512F1B1718320086EAC0 /* ServiceLogger_Board.xml in Resources */,
+				398555D71B1821240086EAC0 /* CalendarBoardCell_iPhone.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3818,6 +3873,7 @@
 				398555A11B17183B0086EAC0 /* ASIDownloadCache.m in Sources */,
 				3985511B1B1718320086EAC0 /* ServiceInspector_Border.m in Sources */,
 				3985510B1B1718320086EAC0 /* ServiceDebugger_NetworkModel.m in Sources */,
+				398555D61B1821240086EAC0 /* CalendarBoardCell_iPhone.m in Sources */,
 				398550FF1B1718320086EAC0 /* ServiceDebugger_DashBoard.m in Sources */,
 				398554D91B17183B0086EAC0 /* Bee_UIScrollView.m in Sources */,
 				398554B61B17183B0086EAC0 /* Bee_UIAnimationFade.m in Sources */,
@@ -4050,6 +4106,7 @@
 				398555031B17183B0086EAC0 /* UIView+BeeUISignal.m in Sources */,
 				398551241B1718320086EAC0 /* ServiceLiveload_Category.m in Sources */,
 				397455781A9C856D000C5C4F /* main.m in Sources */,
+				398555CD1B181D460086EAC0 /* CKCalendarView.m in Sources */,
 				3985559D1B17183B0086EAC0 /* Bee_Service.m in Sources */,
 				398554DC1B17183B0086EAC0 /* Bee_UISlider.m in Sources */,
 				398554FB1B17183B0086EAC0 /* Bee_UIZoomView.m in Sources */,
@@ -4107,6 +4164,7 @@
 				398555AA1B17183B0086EAC0 /* FMResultSet.m in Sources */,
 				3985510D1B1718320086EAC0 /* ServiceDebugger_PlotsView.m in Sources */,
 				398554DE1B17183B0086EAC0 /* Bee_UITabBar.m in Sources */,
+				398555C71B181A6C0086EAC0 /* ScheduleBoard_iPhone.m in Sources */,
 				3985555C1B17183B0086EAC0 /* NSArray+BeeActiveRecord.m in Sources */,
 				398555081B17183B0086EAC0 /* Bee_UILayoutBuilder_v2.m in Sources */,
 				398555071B17183B0086EAC0 /* Bee_UILayoutBuilder_v1.m in Sources */,

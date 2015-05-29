@@ -19,6 +19,7 @@
 #import "AlarmListBoard_iPhone.h"
 #import "AppTabbar_iPhone.h"
 #import "AppNavigationBar_iPhone.h"
+#import "ScheduleBoard_iPhone.h"
 
 #define BAR_HEIGHT  (50.0f)
 #define NAVIGATION_HEIGHT (64.0f)
@@ -51,6 +52,7 @@ ON_CREATE_VIEWS( signal )
     [self.view addSubview:bee.ui.tabbar];
     
     [bee.ui.router map:@"alarmList" toClass:[AlarmListBoard_iPhone class]];
+    [bee.ui.router map:@"schedule" toBoard:[ScheduleBoard_iPhone board]];
     [bee.ui.router open:@"alarmList" animated:YES];
 }
 
@@ -94,6 +96,7 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
 ON_SIGNAL3(AppTabbar_iPhone, alarm_clock_btn, signal)
 {
     [bee.ui.tabbar selectAlarmClock];
+    [bee.ui.router open:@"alarmList" animated:YES];
 }
 
 ON_SIGNAL3(AppTabbar_iPhone, notice_btn, signal)
@@ -104,6 +107,7 @@ ON_SIGNAL3(AppTabbar_iPhone, notice_btn, signal)
 ON_SIGNAL3(AppTabbar_iPhone, schedule_btn, signal)
 {
     [bee.ui.tabbar selectSchedule];
+    [bee.ui.router open:@"schedule" animated:YES];
 }
 
 ON_SIGNAL3(AppTabbar_iPhone, manager_btn, signal)

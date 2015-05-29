@@ -8,30 +8,31 @@
 //	Powered by BeeFramework
 //
 //
-//  AlarmListBoard_iPhone.m
+//  ScheduleBoard_iPhone.m
 //  Coolock
 //
-//  Created by 卢棪 on 2/24/15.
+//  Created by 卢棪 on 5/29/15.
 //  Copyright (c) 2015 _Luyan. All rights reserved.
 //
 
-#import "AlarmListBoard_iPhone.h"
-#import "AlarmListBoardCell_iPhone.h"
+#import "ScheduleBoard_iPhone.h"
 #import "AppNavigationBar_iPhone.h"
+#import "CalendarBoardCell_iPhone.h"
 
 #pragma mark -
 
-@interface AlarmListBoard_iPhone()
+@interface ScheduleBoard_iPhone()<CKCalendarDelegate>
 {
 	//<#@private var#>
 }
 @end
 
-@implementation AlarmListBoard_iPhone
+@implementation ScheduleBoard_iPhone
 
-DEF_OUTLET(BeeUIScrollView, alarmList)
 SUPPORT_AUTOMATIC_LAYOUT( YES )
 SUPPORT_RESOURCE_LOADING( YES )
+
+DEF_OUTLET(BeeUIScrollView, calendarList)
 
 - (void)load
 {
@@ -45,18 +46,18 @@ SUPPORT_RESOURCE_LOADING( YES )
 
 ON_CREATE_VIEWS( signal )
 {
-    self.alarmList.animationDuration = 0.25f;
-    self.alarmList.lineCount = 1;
-    self.alarmList.baseInsets = bee.ui.config.baseInsets;;
+    self.view.backgroundColor = [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0f];
     
-    self.alarmList.whenReloading = ^{
-        self.alarmList.total = 3;
-        for (int i = 0; i < self.alarmList.total; i++) {
-            BeeUIScrollItem *item = self.alarmList.items[i];
-            item.clazz = [AlarmListBoardCell_iPhone class];
-            item.size = CGSizeMake(375, 100);
-        }
-
+        
+    self.calendarList.lineCount = 1;
+    self.calendarList.animationDuration = 0.25f;
+    
+    self.calendarList.whenReloading = ^{
+        self.calendarList.total = 1;
+        
+        BeeUIScrollItem *item = self.calendarList.items[0];
+        item.clazz = [CalendarBoardCell_iPhone class];
+        item.size = self.calendarList.size;
     };
 }
 
@@ -70,8 +71,8 @@ ON_LAYOUT_VIEWS( signal )
 
 ON_WILL_APPEAR( signal )
 {
-    bee.ui.navigationBar.tagImage = @"clock.png";
-    bee.ui.navigationBar.title = @"闹钟";
+    bee.ui.navigationBar.tagImage = @"schedule_icon.png";
+    bee.ui.navigationBar.title = @"安排";
 }
 
 ON_DID_APPEAR( signal )
