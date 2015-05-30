@@ -8,3 +8,6 @@
     #import <UIKit/UIKit.h>
     #import "Bee.h"
 #endif
+
+#define NAVIGATION_HEIGHT (64.0f)
+#define BAR_HEIGHT  (50.0f)

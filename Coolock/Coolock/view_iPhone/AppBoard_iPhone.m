@@ -20,9 +20,8 @@
 #import "AppTabbar_iPhone.h"
 #import "AppNavigationBar_iPhone.h"
 #import "ScheduleBoard_iPhone.h"
+#import "PlanListBoard_iPhone.h"
 
-#define BAR_HEIGHT  (50.0f)
-#define NAVIGATION_HEIGHT (64.0f)
 #define COOL_FONT_WIDTH (120.0f)
 #define CLOCK_FONT_WIDTH (150.0f)
 #define COOLOCK_FONT_WIDTH (200.0f)
@@ -68,8 +67,8 @@ ON_CREATE_VIEWS( signal )
     }
     
     [bee.ui.router map:@"alarmList" toClass:[AlarmListBoard_iPhone class]];
-    [bee.ui.router map:@"schedule" toBoard:[ScheduleBoard_iPhone board]];
-    
+    [bee.ui.router map:@"schedule" toClass:[ScheduleBoard_iPhone class]];
+    [bee.ui.router map:@"planList" toClass:[PlanListBoard_iPhone class]];
 }
 
 ON_DELETE_VIEWS( signal )
@@ -119,7 +118,8 @@ ON_SIGNAL3(AppTabbar_iPhone, alarm_clock_btn, signal)
 
 ON_SIGNAL3(AppTabbar_iPhone, notice_btn, signal)
 {
-    [bee.ui.tabbar selectNotice];
+    [bee.ui.tabbar selectPlanList];
+    [bee.ui.router open:@"planList" animated:YES];
 }
 
 ON_SIGNAL3(AppTabbar_iPhone, schedule_btn, signal)
@@ -166,7 +166,7 @@ ON_SIGNAL3(AppTabbar_iPhone, manager_btn, signal)
         clockLabel.alpha = 0;
         clockLabel.frame = CGRectMake((SCREEN_WIDTH-CLOCK_FONT_WIDTH)/2, SCREEN_HEIGHT*0.14, CLOCK_FONT_WIDTH, 100);
     } completion:^(BOOL finish){
-        [UIView animateWithDuration:2 animations:^{
+        [UIView animateWithDuration:1.5 animations:^{
             coolockLabel.alpha = 1;
         } completion:^(BOOL finish){
             [UIView animateWithDuration:2 animations:^{

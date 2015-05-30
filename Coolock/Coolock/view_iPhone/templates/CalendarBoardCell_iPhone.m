@@ -26,6 +26,7 @@ SUPPORT_RESOURCE_LOADING( YES )
 
 - (void)load
 {
+    //[UIFont fontWithName:@"HYXiYuanJ" size:15.0f]
     CKCalendarView *calendar = [[CKCalendarView alloc] initWithStartDay:startMonday];
     calendar.frame = CGRectMake(10, 75, SCREEN_WIDTH-20, SCREEN_HEIGHT*0.82);
     calendar.delegate = self;
@@ -37,6 +38,9 @@ SUPPORT_RESOURCE_LOADING( YES )
     calendar.selectedDateTextColor = [UIColor colorWithRed:0.62 green:0.62 blue:0.63 alpha:1.0f];
     calendar.currentDateTextColor = [UIColor colorWithRed:0.62 green:0.62 blue:0.63 alpha:1.0f];
     calendar.dayOfWeekTextColor = [UIColor colorWithRed:0.62 green:0.62 blue:0.63 alpha:1.0f];
+    calendar.titleFont = [UIFont fontWithName:@"HYXiYuanJ" size:15];
+    calendar.dayOfWeekFont = [UIFont fontWithName:@"HYXiYuanJ" size:15];
+    calendar.dateFont = [UIFont fontWithName:@"HYXiYuanJ" size:15];
     calendar.layer.cornerRadius = 8.0f;
     [self addSubview:calendar];
 

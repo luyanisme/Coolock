@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39311C081B19D97600E95E29 /* plan_list_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39311C071B19D97600E95E29 /* plan_list_icon.png */; };
+		39311C0D1B19D9C100E95E29 /* PlanListBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 39311C0B1B19D9C100E95E29 /* PlanListBoard_iPhone.m */; };
+		39311C0E1B19D9C100E95E29 /* PlanListBoard_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 39311C0C1B19D9C100E95E29 /* PlanListBoard_iPhone.xml */; };
+		39311C101B19E20F00E95E29 /* break_point.png in Resources */ = {isa = PBXBuildFile; fileRef = 39311C0F1B19E20F00E95E29 /* break_point.png */; };
 		3974555E1A9C856D000C5C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3974555D1A9C856D000C5C4F /* UIKit.framework */; };
 		397455601A9C856D000C5C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3974555F1A9C856D000C5C4F /* Foundation.framework */; };
 		397455621A9C856D000C5C4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397455611A9C856D000C5C4F /* CoreGraphics.framework */; };
@@ -514,6 +518,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39311C071B19D97600E95E29 /* plan_list_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan_list_icon.png; sourceTree = "<group>"; };
+		39311C0A1B19D9C100E95E29 /* PlanListBoard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanListBoard_iPhone.h; sourceTree = "<group>"; };
+		39311C0B1B19D9C100E95E29 /* PlanListBoard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanListBoard_iPhone.m; sourceTree = "<group>"; };
+		39311C0C1B19D9C100E95E29 /* PlanListBoard_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PlanListBoard_iPhone.xml; sourceTree = "<group>"; };
+		39311C0F1B19E20F00E95E29 /* break_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = break_point.png; sourceTree = "<group>"; };
 		3974555A1A9C856D000C5C4F /* Coolock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3974555D1A9C856D000C5C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3974555F1A9C856D000C5C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1571,6 +1580,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39311C091B19D99C00E95E29 /* plan */ = {
+			isa = PBXGroup;
+			children = (
+				39311C0A1B19D9C100E95E29 /* PlanListBoard_iPhone.h */,
+				39311C0B1B19D9C100E95E29 /* PlanListBoard_iPhone.m */,
+				39311C0C1B19D9C100E95E29 /* PlanListBoard_iPhone.xml */,
+			);
+			name = plan;
+			sourceTree = "<group>";
+		};
 		397455511A9C856D000C5C4F = {
 			isa = PBXGroup;
 			children = (
@@ -1684,6 +1703,7 @@
 			isa = PBXGroup;
 			children = (
 				39745C471AA08099000C5C4F /* alarmclock */,
+				39311C091B19D99C00E95E29 /* plan */,
 				398555C31B181A3F0086EAC0 /* schedule */,
 			);
 			name = templates;
@@ -1730,6 +1750,8 @@
 		39745C291A9CC4C7000C5C4F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				39311C0F1B19E20F00E95E29 /* break_point.png */,
+				39311C071B19D97600E95E29 /* plan_list_icon.png */,
 				398555E11B19887D0086EAC0 /* LaunchImage.png */,
 				398555D81B1837300086EAC0 /* left_arrow.png */,
 				398555D91B1837300086EAC0 /* right_arrow.png */,
@@ -3704,6 +3726,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39311C0E1B19D9C100E95E29 /* PlanListBoard_iPhone.xml in Resources */,
 				39745C371A9E1AF5000C5C4F /* 256bytes.TTF in Resources */,
 				398551191B1718320086EAC0 /* ServiceInspector.bundle in Resources */,
 				398555E21B19887D0086EAC0 /* LaunchImage.png in Resources */,
@@ -3727,12 +3750,14 @@
 				39745C3E1AA036E5000C5C4F /* clock.png in Resources */,
 				398551071B1718320086EAC0 /* ServiceDebugger_DashNetworkCell.xml in Resources */,
 				39745C2B1A9CC4CF000C5C4F /* cell_bg.png in Resources */,
+				39311C101B19E20F00E95E29 /* break_point.png in Resources */,
 				398551451B1718320086EAC0 /* ServiceShare_AuthorizeBoard.xml in Resources */,
 				398551051B1718320086EAC0 /* ServiceDebugger_DashMessageCell.xml in Resources */,
 				39745C2D1A9DF599000C5C4F /* bg.png in Resources */,
 				398551031B1718320086EAC0 /* ServiceDebugger_DashMemoryCell.xml in Resources */,
 				398551131B1718320086EAC0 /* ServiceGridSystem.bundle in Resources */,
 				39745C311A9E07A5000C5C4F /* good_morning_project.png in Resources */,
+				39311C081B19D97600E95E29 /* plan_list_icon.png in Resources */,
 				398551701B1718320086EAC0 /* ServiceWizard_PhotoCell.xml in Resources */,
 				3974558E1A9C856D000C5C4F /* Coolock-Prefix.pch in Resources */,
 				39745BE21A9C882C000C5C4F /* AlarmListBoard_iPhone.xml in Resources */,
@@ -3849,6 +3874,7 @@
 				398554ED1B17183B0086EAC0 /* UIView+Screenshot.m in Sources */,
 				398551491B1718320086EAC0 /* bee.services.share.sinaweibo.md in Sources */,
 				3985554D1B17183B0086EAC0 /* Bee_CacheProtocol.mm in Sources */,
+				39311C0D1B19D9C100E95E29 /* PlanListBoard_iPhone.m in Sources */,
 				398554981B17183B0086EAC0 /* UIViewController+Title.m in Sources */,
 				398555641B17183B0086EAC0 /* Bee_Runtime.mm in Sources */,
 				3985546D1B17183B0086EAC0 /* Bee.mm in Sources */,

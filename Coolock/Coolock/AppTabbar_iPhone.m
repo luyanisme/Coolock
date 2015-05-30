@@ -53,7 +53,7 @@ SUPPORT_RESOURCE_LOADING( YES )
     }];
 }
 
-- (void)selectNotice{
+- (void)selectPlanList{
     [UIView animateWithDuration:0.3f animations:^{
         $(@"#under_line").ATTR(@"left", @"31%");
         $(@"#under_line").RELAYOUT();

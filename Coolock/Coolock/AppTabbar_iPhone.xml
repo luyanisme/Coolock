@@ -73,7 +73,7 @@
     .notice{
     width: 35px;
     height: 35px;
-    image: url(notice_icon.png);
+    image: url(plan_list_icon.png);
     mode: fit;
     v-float: center;
     float: center;

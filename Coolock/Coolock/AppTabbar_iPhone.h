@@ -26,7 +26,7 @@ AS_UI( AppTabbar_iPhone, tabbar )
 AS_SINGLETON( AppTabbar_iPhone )
 
 - (void)selectAlarmClock;
-- (void)selectNotice;
+- (void)selectPlanList;
 - (void)selectSchedule;
 - (void)selectManager;
 @end
