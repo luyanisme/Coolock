@@ -219,6 +219,10 @@
                 {
                     fontValue = [UIFont fontWithName:@"256 Bytes" size:heightPixels];
                 }
+                else if ( [fontStyle matchAnyOf:@[@"HYXiYuanJ"]] )
+                {
+                    fontValue = [UIFont fontWithName:@"HYXiYuanJ" size:heightPixels];
+                }
 				else
 				{
 					fontValue = [UIFont systemFontOfSize:heightPixels];

@@ -28,7 +28,6 @@
 		397455911A9C856D000C5C4F /* AppBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 397455901A9C856D000C5C4F /* AppBoard_iPhone.m */; };
 		397455941A9C856D000C5C4F /* AppBoard_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 397455931A9C856D000C5C4F /* AppBoard_iPad.m */; };
 		397455961A9C856D000C5C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397455951A9C856D000C5C4F /* Images.xcassets */; };
-		397455991A9C856D000C5C4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397455971A9C856D000C5C4F /* LaunchScreen.xib */; };
 		39745BE11A9C882C000C5C4F /* AlarmListBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 39745BDF1A9C882C000C5C4F /* AlarmListBoard_iPhone.m */; };
 		39745BE21A9C882C000C5C4F /* AlarmListBoard_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 39745BE01A9C882C000C5C4F /* AlarmListBoard_iPhone.xml */; };
 		39745C271A9CC41B000C5C4F /* AlarmListBoardCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 39745C251A9CC41B000C5C4F /* AlarmListBoardCell_iPhone.m */; };
@@ -508,6 +507,10 @@
 		398555D71B1821240086EAC0 /* CalendarBoardCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 398555D51B1821240086EAC0 /* CalendarBoardCell_iPhone.xml */; };
 		398555DA1B1837300086EAC0 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 398555D81B1837300086EAC0 /* left_arrow.png */; };
 		398555DB1B1837300086EAC0 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 398555D91B1837300086EAC0 /* right_arrow.png */; };
+		398555E21B19887D0086EAC0 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 398555E11B19887D0086EAC0 /* LaunchImage.png */; };
+		398555E51B1991AC0086EAC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398555E31B1991AC0086EAC0 /* LaunchScreen.xib */; };
+		398555E71B1992AE0086EAC0 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398555E61B1992AE0086EAC0 /* Images-2.xcassets */; };
+		398555E91B19B6960086EAC0 /* xiyuanjian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398555E81B19B6960086EAC0 /* xiyuanjian.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -538,7 +541,6 @@
 		397455921A9C856D000C5C4F /* AppBoard_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppBoard_iPad.h; path = view_iPad/AppBoard_iPad.h; sourceTree = "<group>"; };
 		397455931A9C856D000C5C4F /* AppBoard_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppBoard_iPad.m; path = view_iPad/AppBoard_iPad.m; sourceTree = "<group>"; };
 		397455951A9C856D000C5C4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		397455981A9C856D000C5C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		39745BDE1A9C882C000C5C4F /* AlarmListBoard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListBoard_iPhone.h; sourceTree = "<group>"; };
 		39745BDF1A9C882C000C5C4F /* AlarmListBoard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListBoard_iPhone.m; sourceTree = "<group>"; };
 		39745BE01A9C882C000C5C4F /* AlarmListBoard_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AlarmListBoard_iPhone.xml; sourceTree = "<group>"; };
@@ -1534,6 +1536,10 @@
 		398555D51B1821240086EAC0 /* CalendarBoardCell_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CalendarBoardCell_iPhone.xml; sourceTree = "<group>"; };
 		398555D81B1837300086EAC0 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
 		398555D91B1837300086EAC0 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		398555E11B19887D0086EAC0 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		398555E41B1991AC0086EAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		398555E61B1992AE0086EAC0 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		398555E81B19B6960086EAC0 /* xiyuanjian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = xiyuanjian.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1610,13 +1616,14 @@
 				3974557A1A9C856D000C5C4F /* AppDelegate.m */,
 				3974558D1A9C856D000C5C4F /* Coolock-Prefix.pch */,
 				397455951A9C856D000C5C4F /* Images.xcassets */,
-				397455971A9C856D000C5C4F /* LaunchScreen.xib */,
+				398555E31B1991AC0086EAC0 /* LaunchScreen.xib */,
 				398555C91B181D3D0086EAC0 /* vender */,
 				3974557F1A9C856D000C5C4F /* controller */,
 				3974557E1A9C856D000C5C4F /* model */,
 				397455801A9C856D000C5C4F /* view_iPhone */,
 				397455831A9C856D000C5C4F /* view_iPad */,
 				397455861A9C856D000C5C4F /* library */,
+				398555E61B1992AE0086EAC0 /* Images-2.xcassets */,
 				397455761A9C856D000C5C4F /* Supporting Files */,
 			);
 			path = Coolock;
@@ -1723,6 +1730,7 @@
 		39745C291A9CC4C7000C5C4F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				398555E11B19887D0086EAC0 /* LaunchImage.png */,
 				398555D81B1837300086EAC0 /* left_arrow.png */,
 				398555D91B1837300086EAC0 /* right_arrow.png */,
 				39745C511AA1C4DF000C5C4F /* alarm_clock.png */,
@@ -1740,6 +1748,7 @@
 		39745C351A9E1AF5000C5C4F /* font */ = {
 			isa = PBXGroup;
 			children = (
+				398555E81B19B6960086EAC0 /* xiyuanjian.ttf */,
 				39745C361A9E1AF5000C5C4F /* 256bytes.TTF */,
 			);
 			path = font;
@@ -3697,6 +3706,7 @@
 			files = (
 				39745C371A9E1AF5000C5C4F /* 256bytes.TTF in Resources */,
 				398551191B1718320086EAC0 /* ServiceInspector.bundle in Resources */,
+				398555E21B19887D0086EAC0 /* LaunchImage.png in Resources */,
 				398551421B1718320086EAC0 /* ServiceShare.bundle in Resources */,
 				39745C521AA1C4DF000C5C4F /* alarm_clock.png in Resources */,
 				398550FC1B1718320086EAC0 /* ServiceDebugger.bundle in Resources */,
@@ -3704,13 +3714,16 @@
 				398551311B1718320086EAC0 /* ServiceLogger_Cell.xml in Resources */,
 				39745C441AA067F1000C5C4F /* manager_icon.png in Resources */,
 				398555DB1B1837300086EAC0 /* right_arrow.png in Resources */,
+				398555E51B1991AC0086EAC0 /* LaunchScreen.xib in Resources */,
 				39745C421AA040ED000C5C4F /* notice_icon.png in Resources */,
 				398555DA1B1837300086EAC0 /* left_arrow.png in Resources */,
 				3985516D1B1718320086EAC0 /* ServiceWizard_Board.xml in Resources */,
 				39745C461AA06977000C5C4F /* schedule_icon.png in Resources */,
 				39745C281A9CC41B000C5C4F /* AlarmListBoardCell_iPhone.xml in Resources */,
 				39745C4E1AA178B9000C5C4F /* AppNavigationBar_iPhone.xml in Resources */,
+				398555E91B19B6960086EAC0 /* xiyuanjian.ttf in Resources */,
 				39745C3C1AA02382000C5C4F /* AppTabbar_iPhone.xml in Resources */,
+				398555E71B1992AE0086EAC0 /* Images-2.xcassets in Resources */,
 				39745C3E1AA036E5000C5C4F /* clock.png in Resources */,
 				398551071B1718320086EAC0 /* ServiceDebugger_DashNetworkCell.xml in Resources */,
 				39745C2B1A9CC4CF000C5C4F /* cell_bg.png in Resources */,
@@ -3724,7 +3737,6 @@
 				3974558E1A9C856D000C5C4F /* Coolock-Prefix.pch in Resources */,
 				39745BE21A9C882C000C5C4F /* AlarmListBoard_iPhone.xml in Resources */,
 				3985512C1B1718320086EAC0 /* ServiceLogger.bundle in Resources */,
-				397455991A9C856D000C5C4F /* LaunchScreen.xib in Resources */,
 				398555C81B181A6C0086EAC0 /* ScheduleBoard_iPhone.xml in Resources */,
 				397455961A9C856D000C5C4F /* Images.xcassets in Resources */,
 				3985512F1B1718320086EAC0 /* ServiceLogger_Board.xml in Resources */,
@@ -4194,10 +4206,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		397455971A9C856D000C5C4F /* LaunchScreen.xib */ = {
+		398555E31B1991AC0086EAC0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				397455981A9C856D000C5C4F /* Base */,
+				398555E41B1991AC0086EAC0 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -4289,6 +4301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -4309,6 +4322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
